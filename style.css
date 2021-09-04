@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 80vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 10vh;
+}
+
+.clock {
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+    background-image: url('img/clock1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hourhand,
+.minutehand,
+.secondhand {
+    background-color: black;
+    transform-origin: bottom;
+}
+
+.hourhand {
+    position: absolute;
+    height: 18%;
+    width: 0.65%;
+    top: 32%;
+    left: 49.83%;
+    border-radius: 50%;
+    /* display: none; */
+}
+
+.minutehand {
+    position: absolute;
+    height: 27%;
+    width: 0.5%;
+    top: 23%;
+    left: 49.865%;
+    border-radius: 50%;
+    /* display: none; */
+}
+
+.secondhand {
+    position: absolute;
+    height: 32%;
+    width: 0.4%;
+    top: 18%;
+    left: 49.93%;
+    border-radius: 50%;
+    /* display: none; */
+}
